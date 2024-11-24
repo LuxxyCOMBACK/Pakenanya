@@ -1,0 +1,362 @@
+0 verbose cli /data/data/com.termux/files/usr/bin/node /data/data/com.termux/files/usr/bin/npm
+1 info using npm@10.8.2
+2 info using node@v20.17.0
+3 silly config load:file:/data/data/com.termux/files/usr/lib/node_modules/npm/npmrc
+4 silly config load:file:/data/data/com.termux/files/home/.npmrc
+5 silly config load:file:/data/data/com.termux/files/usr/etc/npmrc
+6 verbose title npm i bash-obfuscate
+7 verbose argv "--global" "i" "bash-obfuscate"
+8 verbose logfile logs-max:10 dir:/data/data/com.termux/files/home/.npm/_logs/2024-11-17T00_01_50_827Z-
+9 verbose logfile /data/data/com.termux/files/home/.npm/_logs/2024-11-17T00_01_50_827Z-debug-0.log
+10 silly packumentCache heap:980418560 maxSize:245104640 maxEntrySize:122552320
+11 silly logfile start cleaning logs, removing 2 files
+12 silly idealTree buildDeps
+13 silly fetch manifest bash-obfuscate@*
+14 silly packumentCache full:https://registry.npmjs.org/bash-obfuscate cache-miss
+15 silly logfile done cleaning log files
+16 http fetch GET 200 https://registry.npmjs.org/bash-obfuscate 1243ms (cache revalidated)
+17 silly packumentCache full:https://registry.npmjs.org/bash-obfuscate set size:12362 disposed:false
+18 silly placeDep ROOT bash-obfuscate@1.2.1 OK for:  want: *
+19 silly fetch manifest lodash@^4.17.3
+20 silly packumentCache full:https://registry.npmjs.org/lodash cache-miss
+21 silly fetch manifest yargs@^6.5.0
+22 silly packumentCache full:https://registry.npmjs.org/yargs cache-miss
+23 http fetch GET 200 https://registry.npmjs.org/yargs 259ms (cache revalidated)
+24 silly packumentCache full:https://registry.npmjs.org/yargs set size:1061296 disposed:false
+25 http fetch GET 200 https://registry.npmjs.org/lodash 457ms (cache revalidated)
+26 silly packumentCache full:https://registry.npmjs.org/lodash set size:242335 disposed:false
+27 silly placeDep node_modules/bash-obfuscate lodash@4.17.21 OK for: bash-obfuscate@1.2.1 want: ^4.17.3
+28 silly placeDep node_modules/bash-obfuscate yargs@6.6.0 OK for: bash-obfuscate@1.2.1 want: ^6.5.0
+29 silly fetch manifest y18n@^3.2.1
+30 silly packumentCache full:https://registry.npmjs.org/y18n cache-miss
+31 silly fetch manifest cliui@^3.2.0
+32 silly packumentCache full:https://registry.npmjs.org/cliui cache-miss
+33 silly fetch manifest camelcase@^3.0.0
+34 silly packumentCache full:https://registry.npmjs.org/camelcase cache-miss
+35 silly fetch manifest os-locale@^1.4.0
+36 silly packumentCache full:https://registry.npmjs.org/os-locale cache-miss
+37 silly fetch manifest decamelize@^1.1.1
+38 silly packumentCache full:https://registry.npmjs.org/decamelize cache-miss
+39 silly fetch manifest read-pkg-up@^1.0.1
+40 silly packumentCache full:https://registry.npmjs.org/read-pkg-up cache-miss
+41 silly fetch manifest set-blocking@^2.0.0
+42 silly packumentCache full:https://registry.npmjs.org/set-blocking cache-miss
+43 http fetch GET 200 https://registry.npmjs.org/os-locale 233ms (cache revalidated)
+44 silly packumentCache full:https://registry.npmjs.org/os-locale set size:38670 disposed:false
+45 silly fetch manifest string-width@^1.0.2
+46 silly packumentCache full:https://registry.npmjs.org/string-width cache-miss
+47 http fetch GET 200 https://registry.npmjs.org/y18n 382ms (cache revalidated)
+48 silly packumentCache full:https://registry.npmjs.org/y18n set size:76155 disposed:false
+49 silly fetch manifest which-module@^1.0.0
+50 silly packumentCache full:https://registry.npmjs.org/which-module cache-miss
+51 http fetch GET 200 https://registry.npmjs.org/decamelize 388ms (cache revalidated)
+52 silly packumentCache full:https://registry.npmjs.org/decamelize set size:32733 disposed:false
+53 silly fetch manifest yargs-parser@^4.2.0
+54 silly packumentCache full:https://registry.npmjs.org/yargs-parser cache-miss
+55 http fetch GET 200 https://registry.npmjs.org/string-width 159ms (cache revalidated)
+56 silly packumentCache full:https://registry.npmjs.org/string-width set size:61460 disposed:false
+57 silly fetch manifest get-caller-file@^1.0.1
+58 silly packumentCache full:https://registry.npmjs.org/get-caller-file cache-miss
+59 http fetch GET 200 https://registry.npmjs.org/cliui 411ms (cache revalidated)
+60 silly packumentCache full:https://registry.npmjs.org/cliui set size:63931 disposed:false
+61 silly fetch manifest require-directory@^2.1.1
+62 silly packumentCache full:https://registry.npmjs.org/require-directory cache-miss
+63 http fetch GET 200 https://registry.npmjs.org/camelcase 418ms (cache revalidated)
+64 silly packumentCache full:https://registry.npmjs.org/camelcase set size:57059 disposed:false
+65 silly fetch manifest require-main-filename@^1.0.1
+66 silly packumentCache full:https://registry.npmjs.org/require-main-filename cache-miss
+67 http fetch GET 200 https://registry.npmjs.org/read-pkg-up 422ms (cache revalidated)
+68 silly packumentCache full:https://registry.npmjs.org/read-pkg-up set size:35986 disposed:false
+69 http fetch GET 200 https://registry.npmjs.org/require-main-filename 161ms (cache revalidated)
+70 silly packumentCache full:https://registry.npmjs.org/require-main-filename set size:7471 disposed:false
+71 http fetch GET 200 https://registry.npmjs.org/require-directory 174ms (cache revalidated)
+72 silly packumentCache full:https://registry.npmjs.org/require-directory set size:26866 disposed:false
+73 http fetch GET 200 https://registry.npmjs.org/which-module 203ms (cache revalidated)
+74 silly packumentCache full:https://registry.npmjs.org/which-module set size:13898 disposed:false
+75 http fetch GET 200 https://registry.npmjs.org/get-caller-file 187ms (cache revalidated)
+76 silly packumentCache full:https://registry.npmjs.org/get-caller-file set size:26456 disposed:false
+77 http fetch GET 200 https://registry.npmjs.org/yargs-parser 230ms (cache revalidated)
+78 silly packumentCache full:https://registry.npmjs.org/yargs-parser set size:355061 disposed:false
+79 http fetch GET 200 https://registry.npmjs.org/set-blocking 1164ms (cache revalidated)
+80 silly packumentCache full:https://registry.npmjs.org/set-blocking set size:5763 disposed:false
+81 silly placeDep node_modules/bash-obfuscate camelcase@3.0.0 OK for: yargs@6.6.0 want: ^3.0.0
+82 silly placeDep node_modules/bash-obfuscate cliui@3.2.0 OK for: yargs@6.6.0 want: ^3.2.0
+83 silly placeDep node_modules/bash-obfuscate decamelize@1.2.0 OK for: yargs@6.6.0 want: ^1.1.1
+84 silly placeDep node_modules/bash-obfuscate get-caller-file@1.0.3 OK for: yargs@6.6.0 want: ^1.0.1
+85 silly placeDep node_modules/bash-obfuscate os-locale@1.4.0 OK for: yargs@6.6.0 want: ^1.4.0
+86 silly placeDep node_modules/bash-obfuscate read-pkg-up@1.0.1 OK for: yargs@6.6.0 want: ^1.0.1
+87 silly placeDep node_modules/bash-obfuscate require-directory@2.1.1 OK for: yargs@6.6.0 want: ^2.1.1
+88 silly placeDep node_modules/bash-obfuscate require-main-filename@1.0.1 OK for: yargs@6.6.0 want: ^1.0.1
+89 silly placeDep node_modules/bash-obfuscate set-blocking@2.0.0 OK for: yargs@6.6.0 want: ^2.0.0
+90 silly placeDep node_modules/bash-obfuscate string-width@1.0.2 OK for: yargs@6.6.0 want: ^1.0.2
+91 silly placeDep node_modules/bash-obfuscate which-module@1.0.0 OK for: yargs@6.6.0 want: ^1.0.0
+92 silly placeDep node_modules/bash-obfuscate y18n@3.2.2 OK for: yargs@6.6.0 want: ^3.2.1
+93 silly placeDep node_modules/bash-obfuscate yargs-parser@4.2.1 OK for: yargs@6.6.0 want: ^4.2.0
+94 silly fetch manifest wrap-ansi@^2.0.0
+95 silly packumentCache full:https://registry.npmjs.org/wrap-ansi cache-miss
+96 silly fetch manifest strip-ansi@^3.0.1
+97 silly packumentCache full:https://registry.npmjs.org/strip-ansi cache-miss
+98 silly fetch manifest string-width@^1.0.1
+99 silly packumentCache full:https://registry.npmjs.org/string-width cache-hit
+100 silly fetch manifest lcid@^1.0.0
+101 silly packumentCache full:https://registry.npmjs.org/lcid cache-miss
+102 silly fetch manifest find-up@^1.0.0
+103 silly packumentCache full:https://registry.npmjs.org/find-up cache-miss
+104 silly fetch manifest read-pkg@^1.0.0
+105 silly packumentCache full:https://registry.npmjs.org/read-pkg cache-miss
+106 silly fetch manifest strip-ansi@^3.0.0
+107 silly packumentCache full:https://registry.npmjs.org/strip-ansi cache-miss
+108 silly fetch manifest code-point-at@^1.0.0
+109 silly packumentCache full:https://registry.npmjs.org/code-point-at cache-miss
+110 http fetch GET 200 https://registry.npmjs.org/lcid 233ms (cache revalidated)
+111 silly packumentCache full:https://registry.npmjs.org/lcid set size:20804 disposed:false
+112 silly fetch manifest is-fullwidth-code-point@^1.0.0
+113 silly packumentCache full:https://registry.npmjs.org/is-fullwidth-code-point cache-miss
+114 http fetch GET 200 https://registry.npmjs.org/wrap-ansi 248ms (cache revalidated)
+115 silly packumentCache full:https://registry.npmjs.org/wrap-ansi set size:51143 disposed:false
+116 http fetch GET 200 https://registry.npmjs.org/strip-ansi 254ms (cache revalidated)
+117 silly packumentCache full:https://registry.npmjs.org/strip-ansi set size:43180 disposed:false
+118 http fetch GET 200 https://registry.npmjs.org/code-point-at 250ms (cache revalidated)
+119 silly packumentCache full:https://registry.npmjs.org/code-point-at set size:8688 disposed:false
+120 http fetch GET 200 https://registry.npmjs.org/strip-ansi 259ms (cache revalidated)
+121 silly packumentCache full:https://registry.npmjs.org/strip-ansi set size:43180 disposed:false
+122 silly packumentCache full:https://registry.npmjs.org/strip-ansi dispose
+123 http fetch GET 200 https://registry.npmjs.org/find-up 269ms (cache revalidated)
+124 silly packumentCache full:https://registry.npmjs.org/find-up set size:38503 disposed:false
+125 http fetch GET 200 https://registry.npmjs.org/read-pkg 289ms (cache revalidated)
+126 silly packumentCache full:https://registry.npmjs.org/read-pkg set size:40130 disposed:false
+127 http fetch GET 200 https://registry.npmjs.org/is-fullwidth-code-point 414ms (cache revalidated)
+128 silly packumentCache full:https://registry.npmjs.org/is-fullwidth-code-point set size:12553 disposed:false
+129 silly placeDep node_modules/bash-obfuscate strip-ansi@3.0.1 OK for: cliui@3.2.0 want: ^3.0.1
+130 silly placeDep node_modules/bash-obfuscate wrap-ansi@2.1.0 OK for: cliui@3.2.0 want: ^2.0.0
+131 silly fetch manifest ansi-regex@^2.0.0
+132 silly packumentCache full:https://registry.npmjs.org/ansi-regex cache-miss
+133 http fetch GET 200 https://registry.npmjs.org/ansi-regex 337ms (cache revalidated)
+134 silly packumentCache full:https://registry.npmjs.org/ansi-regex set size:41869 disposed:false
+135 silly placeDep node_modules/bash-obfuscate lcid@1.0.0 OK for: os-locale@1.4.0 want: ^1.0.0
+136 silly fetch manifest invert-kv@^1.0.0
+137 silly packumentCache full:https://registry.npmjs.org/invert-kv cache-miss
+138 http fetch GET 200 https://registry.npmjs.org/invert-kv 265ms (cache revalidated)
+139 silly packumentCache full:https://registry.npmjs.org/invert-kv set size:18789 disposed:false
+140 silly placeDep node_modules/bash-obfuscate invert-kv@1.0.0 OK for: lcid@1.0.0 want: ^1.0.0
+141 silly placeDep node_modules/bash-obfuscate find-up@1.1.2 OK for: read-pkg-up@1.0.1 want: ^1.0.0
+142 silly placeDep node_modules/bash-obfuscate read-pkg@1.1.0 OK for: read-pkg-up@1.0.1 want: ^1.0.0
+143 silly fetch manifest path-exists@^2.0.0
+144 silly packumentCache full:https://registry.npmjs.org/path-exists cache-miss
+145 silly fetch manifest pinkie-promise@^2.0.0
+146 silly packumentCache full:https://registry.npmjs.org/pinkie-promise cache-miss
+147 silly fetch manifest load-json-file@^1.0.0
+148 silly packumentCache full:https://registry.npmjs.org/load-json-file cache-miss
+149 silly fetch manifest normalize-package-data@^2.3.2
+150 silly packumentCache full:https://registry.npmjs.org/normalize-package-data cache-miss
+151 silly fetch manifest path-type@^1.0.0
+152 silly packumentCache full:https://registry.npmjs.org/path-type cache-miss
+153 http fetch GET 200 https://registry.npmjs.org/path-type 266ms (cache revalidated)
+154 silly packumentCache full:https://registry.npmjs.org/path-type set size:15341 disposed:false
+155 http fetch GET 200 https://registry.npmjs.org/load-json-file 280ms (cache revalidated)
+156 silly packumentCache full:https://registry.npmjs.org/load-json-file set size:35687 disposed:false
+157 http fetch GET 200 https://registry.npmjs.org/path-exists 818ms (cache revalidated)
+158 silly packumentCache full:https://registry.npmjs.org/path-exists set size:13704 disposed:false
+159 http fetch GET 200 https://registry.npmjs.org/normalize-package-data 816ms (cache revalidated)
+160 silly packumentCache full:https://registry.npmjs.org/normalize-package-data set size:123092 disposed:false
+161 http fetch GET 200 https://registry.npmjs.org/pinkie-promise 858ms (cache revalidated)
+162 silly packumentCache full:https://registry.npmjs.org/pinkie-promise set size:6122 disposed:false
+163 silly placeDep node_modules/bash-obfuscate path-exists@2.1.0 OK for: find-up@1.1.2 want: ^2.0.0
+164 silly placeDep node_modules/bash-obfuscate pinkie-promise@2.0.1 OK for: find-up@1.1.2 want: ^2.0.0
+165 silly fetch manifest pinkie@^2.0.0
+166 silly packumentCache full:https://registry.npmjs.org/pinkie cache-miss
+167 http fetch GET 200 https://registry.npmjs.org/pinkie 198ms (cache revalidated)
+168 silly packumentCache full:https://registry.npmjs.org/pinkie set size:15061 disposed:false
+169 silly placeDep node_modules/bash-obfuscate pinkie@2.0.4 OK for: pinkie-promise@2.0.1 want: ^2.0.0
+170 silly placeDep node_modules/bash-obfuscate load-json-file@1.1.0 OK for: read-pkg@1.1.0 want: ^1.0.0
+171 silly placeDep node_modules/bash-obfuscate normalize-package-data@2.5.0 OK for: read-pkg@1.1.0 want: ^2.3.2
+172 silly placeDep node_modules/bash-obfuscate path-type@1.1.0 OK for: read-pkg@1.1.0 want: ^1.0.0
+173 silly fetch manifest graceful-fs@^4.1.2
+174 silly packumentCache full:https://registry.npmjs.org/graceful-fs cache-miss
+175 silly fetch manifest parse-json@^2.2.0
+176 silly packumentCache full:https://registry.npmjs.org/parse-json cache-miss
+177 silly fetch manifest pify@^2.0.0
+178 silly packumentCache full:https://registry.npmjs.org/pify cache-miss
+179 silly fetch manifest strip-bom@^2.0.0
+180 silly packumentCache full:https://registry.npmjs.org/strip-bom cache-miss
+181 silly fetch manifest semver@2 || 3 || 4 || 5
+182 silly packumentCache full:https://registry.npmjs.org/semver cache-miss
+183 silly fetch manifest resolve@^1.10.0
+184 silly packumentCache full:https://registry.npmjs.org/resolve cache-miss
+185 silly fetch manifest hosted-git-info@^2.1.4
+186 silly packumentCache full:https://registry.npmjs.org/hosted-git-info cache-miss
+187 http fetch GET 200 https://registry.npmjs.org/parse-json 160ms (cache revalidated)
+188 silly packumentCache full:https://registry.npmjs.org/parse-json set size:43961 disposed:false
+189 silly fetch manifest validate-npm-package-license@^3.0.1
+190 silly packumentCache full:https://registry.npmjs.org/validate-npm-package-license cache-miss
+191 http fetch GET 200 https://registry.npmjs.org/strip-bom 161ms (cache revalidated)
+192 silly packumentCache full:https://registry.npmjs.org/strip-bom set size:19359 disposed:false
+193 silly fetch manifest pify@^2.0.0
+194 silly packumentCache full:https://registry.npmjs.org/pify cache-miss
+195 http fetch GET 200 https://registry.npmjs.org/pify 170ms (cache revalidated)
+196 silly packumentCache full:https://registry.npmjs.org/pify set size:33583 disposed:false
+197 silly fetch manifest graceful-fs@^4.1.2
+198 silly packumentCache full:https://registry.npmjs.org/graceful-fs cache-miss
+199 http fetch GET 200 https://registry.npmjs.org/semver 171ms (cache revalidated)
+200 silly packumentCache full:https://registry.npmjs.org/semver set size:215926 disposed:false
+201 http fetch GET 200 https://registry.npmjs.org/graceful-fs 199ms (cache revalidated)
+202 silly packumentCache full:https://registry.npmjs.org/graceful-fs set size:124285 disposed:false
+203 http fetch GET 200 https://registry.npmjs.org/resolve 200ms (cache revalidated)
+204 silly packumentCache full:https://registry.npmjs.org/resolve set size:288408 disposed:false
+205 http fetch GET 200 https://registry.npmjs.org/hosted-git-info 211ms (cache revalidated)
+206 silly packumentCache full:https://registry.npmjs.org/hosted-git-info set size:158191 disposed:false
+207 http fetch GET 200 https://registry.npmjs.org/pify 70ms (cache hit)
+208 silly packumentCache full:https://registry.npmjs.org/pify set size:33583 disposed:false
+209 silly packumentCache full:https://registry.npmjs.org/pify dispose
+210 http fetch GET 200 https://registry.npmjs.org/graceful-fs 67ms (cache hit)
+211 silly packumentCache full:https://registry.npmjs.org/graceful-fs set size:124285 disposed:false
+212 silly packumentCache full:https://registry.npmjs.org/graceful-fs dispose
+213 http fetch GET 200 https://registry.npmjs.org/validate-npm-package-license 297ms (cache revalidated)
+214 silly packumentCache full:https://registry.npmjs.org/validate-npm-package-license set size:21821 disposed:false
+215 silly placeDep node_modules/bash-obfuscate graceful-fs@4.2.11 OK for: load-json-file@1.1.0 want: ^4.1.2
+216 silly placeDep node_modules/bash-obfuscate parse-json@2.2.0 OK for: load-json-file@1.1.0 want: ^2.2.0
+217 silly placeDep node_modules/bash-obfuscate pify@2.3.0 OK for: load-json-file@1.1.0 want: ^2.0.0
+218 silly placeDep node_modules/bash-obfuscate strip-bom@2.0.0 OK for: load-json-file@1.1.0 want: ^2.0.0
+219 silly fetch manifest error-ex@^1.2.0
+220 silly packumentCache full:https://registry.npmjs.org/error-ex cache-miss
+221 silly fetch manifest is-utf8@^0.2.0
+222 silly packumentCache full:https://registry.npmjs.org/is-utf8 cache-miss
+223 http fetch GET 200 https://registry.npmjs.org/is-utf8 340ms (cache revalidated)
+224 silly packumentCache full:https://registry.npmjs.org/is-utf8 set size:4227 disposed:false
+225 http fetch GET 200 https://registry.npmjs.org/error-ex 349ms (cache revalidated)
+226 silly packumentCache full:https://registry.npmjs.org/error-ex set size:29963 disposed:false
+227 silly placeDep node_modules/bash-obfuscate hosted-git-info@2.8.9 OK for: normalize-package-data@2.5.0 want: ^2.1.4
+228 silly placeDep node_modules/bash-obfuscate resolve@1.22.8 OK for: normalize-package-data@2.5.0 want: ^1.10.0
+229 silly placeDep node_modules/bash-obfuscate semver@5.7.2 OK for: normalize-package-data@2.5.0 want: 2 || 3 || 4 || 5
+230 silly placeDep node_modules/bash-obfuscate validate-npm-package-license@3.0.4 OK for: normalize-package-data@2.5.0 want: ^3.0.1
+231 silly fetch manifest is-core-module@^2.13.0
+232 silly packumentCache full:https://registry.npmjs.org/is-core-module cache-miss
+233 silly fetch manifest path-parse@^1.0.7
+234 silly packumentCache full:https://registry.npmjs.org/path-parse cache-miss
+235 silly fetch manifest supports-preserve-symlinks-flag@^1.0.0
+236 silly packumentCache full:https://registry.npmjs.org/supports-preserve-symlinks-flag cache-miss
+237 silly fetch manifest spdx-correct@^3.0.0
+238 silly packumentCache full:https://registry.npmjs.org/spdx-correct cache-miss
+239 silly fetch manifest spdx-expression-parse@^3.0.0
+240 silly packumentCache full:https://registry.npmjs.org/spdx-expression-parse cache-miss
+241 http fetch GET 200 https://registry.npmjs.org/path-parse 282ms (cache revalidated)
+242 silly packumentCache full:https://registry.npmjs.org/path-parse set size:14523 disposed:false
+243 http fetch GET 200 https://registry.npmjs.org/spdx-expression-parse 280ms (cache revalidated)
+244 silly packumentCache full:https://registry.npmjs.org/spdx-expression-parse set size:29500 disposed:false
+245 http fetch GET 200 https://registry.npmjs.org/spdx-correct 288ms (cache revalidated)
+246 silly packumentCache full:https://registry.npmjs.org/spdx-correct set size:38642 disposed:false
+247 http fetch GET 200 https://registry.npmjs.org/is-core-module 302ms (cache revalidated)
+248 silly packumentCache full:https://registry.npmjs.org/is-core-module set size:66526 disposed:false
+249 http fetch GET 200 https://registry.npmjs.org/supports-preserve-symlinks-flag 914ms (cache revalidated)
+250 silly packumentCache full:https://registry.npmjs.org/supports-preserve-symlinks-flag set size:6802 disposed:false
+251 silly placeDep node_modules/bash-obfuscate error-ex@1.3.2 OK for: parse-json@2.2.0 want: ^1.2.0
+252 silly fetch manifest is-arrayish@^0.2.1
+253 silly packumentCache full:https://registry.npmjs.org/is-arrayish cache-miss
+254 http fetch GET 200 https://registry.npmjs.org/is-arrayish 109ms (cache revalidated)
+255 silly packumentCache full:https://registry.npmjs.org/is-arrayish set size:13422 disposed:false
+256 silly placeDep node_modules/bash-obfuscate is-arrayish@0.2.1 OK for: error-ex@1.3.2 want: ^0.2.1
+257 silly placeDep node_modules/bash-obfuscate is-core-module@2.15.1 OK for: resolve@1.22.8 want: ^2.13.0
+258 silly placeDep node_modules/bash-obfuscate path-parse@1.0.7 OK for: resolve@1.22.8 want: ^1.0.7
+259 silly placeDep node_modules/bash-obfuscate supports-preserve-symlinks-flag@1.0.0 OK for: resolve@1.22.8 want: ^1.0.0
+260 silly fetch manifest hasown@^2.0.2
+261 silly packumentCache full:https://registry.npmjs.org/hasown cache-miss
+262 http fetch GET 200 https://registry.npmjs.org/hasown 230ms (cache revalidated)
+263 silly packumentCache full:https://registry.npmjs.org/hasown set size:12476 disposed:false
+264 silly placeDep node_modules/bash-obfuscate hasown@2.0.2 OK for: is-core-module@2.15.1 want: ^2.0.2
+265 silly fetch manifest function-bind@^1.1.2
+266 silly packumentCache full:https://registry.npmjs.org/function-bind cache-miss
+267 http fetch GET 200 https://registry.npmjs.org/function-bind 171ms (cache revalidated)
+268 silly packumentCache full:https://registry.npmjs.org/function-bind set size:15733 disposed:false
+269 silly placeDep node_modules/bash-obfuscate function-bind@1.1.2 OK for: hasown@2.0.2 want: ^1.1.2
+270 silly placeDep node_modules/bash-obfuscate code-point-at@1.1.0 OK for: string-width@1.0.2 want: ^1.0.0
+271 silly placeDep node_modules/bash-obfuscate is-fullwidth-code-point@1.0.0 OK for: string-width@1.0.2 want: ^1.0.0
+272 silly fetch manifest number-is-nan@^1.0.0
+273 silly packumentCache full:https://registry.npmjs.org/number-is-nan cache-miss
+274 http fetch GET 200 https://registry.npmjs.org/number-is-nan 333ms (cache revalidated)
+275 silly packumentCache full:https://registry.npmjs.org/number-is-nan set size:9822 disposed:false
+276 silly placeDep node_modules/bash-obfuscate number-is-nan@1.0.1 OK for: is-fullwidth-code-point@1.0.0 want: ^1.0.0
+277 silly placeDep node_modules/bash-obfuscate ansi-regex@2.1.1 OK for: strip-ansi@3.0.1 want: ^2.0.0
+278 silly placeDep node_modules/bash-obfuscate is-utf8@0.2.1 OK for: strip-bom@2.0.0 want: ^0.2.0
+279 silly placeDep node_modules/bash-obfuscate spdx-correct@3.2.0 OK for: validate-npm-package-license@3.0.4 want: ^3.0.0
+280 silly placeDep node_modules/bash-obfuscate spdx-expression-parse@3.0.1 OK for: validate-npm-package-license@3.0.4 want: ^3.0.0
+281 silly fetch manifest spdx-license-ids@^3.0.0
+282 silly packumentCache full:https://registry.npmjs.org/spdx-license-ids cache-miss
+283 silly fetch manifest spdx-exceptions@^2.1.0
+284 silly packumentCache full:https://registry.npmjs.org/spdx-exceptions cache-miss
+285 silly fetch manifest spdx-license-ids@^3.0.0
+286 silly packumentCache full:https://registry.npmjs.org/spdx-license-ids cache-miss
+287 http fetch GET 200 https://registry.npmjs.org/spdx-license-ids 86ms (cache revalidated)
+288 silly packumentCache full:https://registry.npmjs.org/spdx-license-ids set size:76853 disposed:false
+289 http fetch GET 200 https://registry.npmjs.org/spdx-license-ids 87ms (cache revalidated)
+290 silly packumentCache full:https://registry.npmjs.org/spdx-license-ids set size:76853 disposed:false
+291 silly packumentCache full:https://registry.npmjs.org/spdx-license-ids dispose
+292 http fetch GET 200 https://registry.npmjs.org/spdx-exceptions 119ms (cache revalidated)
+293 silly packumentCache full:https://registry.npmjs.org/spdx-exceptions set size:21227 disposed:false
+294 silly placeDep node_modules/bash-obfuscate spdx-license-ids@3.0.20 OK for: spdx-correct@3.2.0 want: ^3.0.0
+295 silly placeDep node_modules/bash-obfuscate spdx-exceptions@2.5.0 OK for: spdx-expression-parse@3.0.1 want: ^2.1.0
+296 silly reify mark retired [
+296 silly reify   '/data/data/com.termux/files/usr/lib/node_modules/bash-obfuscate',
+296 silly reify   '/data/data/com.termux/files/usr/bin/bash-obfuscate'
+296 silly reify ]
+297 silly reify moves {
+297 silly reify   '/data/data/com.termux/files/usr/lib/node_modules/bash-obfuscate': '/data/data/com.termux/files/usr/lib/node_modules/.bash-obfuscate-vGGq3cYB',
+297 silly reify   '/data/data/com.termux/files/usr/bin/bash-obfuscate': '/data/data/com.termux/files/usr/bin/.bash-obfuscate-5O3ZOsCP'
+297 silly reify }
+298 silly CHANGE node_modules/bash-obfuscate
+299 silly CHANGE node_modules/bash-obfuscate/node_modules/yargs-parser
+300 silly CHANGE node_modules/bash-obfuscate/node_modules/yargs
+301 silly CHANGE node_modules/bash-obfuscate/node_modules/y18n
+302 silly CHANGE node_modules/bash-obfuscate/node_modules/wrap-ansi
+303 silly CHANGE node_modules/bash-obfuscate/node_modules/which-module
+304 silly CHANGE node_modules/bash-obfuscate/node_modules/validate-npm-package-license
+305 silly CHANGE node_modules/bash-obfuscate/node_modules/strip-bom
+306 silly CHANGE node_modules/bash-obfuscate/node_modules/strip-ansi
+307 silly CHANGE node_modules/bash-obfuscate/node_modules/supports-preserve-symlinks-flag
+308 silly CHANGE node_modules/bash-obfuscate/node_modules/string-width
+309 silly CHANGE node_modules/bash-obfuscate/node_modules/spdx-license-ids
+310 silly CHANGE node_modules/bash-obfuscate/node_modules/spdx-exceptions
+311 silly CHANGE node_modules/bash-obfuscate/node_modules/spdx-expression-parse
+312 silly CHANGE node_modules/bash-obfuscate/node_modules/spdx-correct
+313 silly CHANGE node_modules/bash-obfuscate/node_modules/resolve
+314 silly CHANGE node_modules/bash-obfuscate/node_modules/set-blocking
+315 silly CHANGE node_modules/bash-obfuscate/node_modules/semver
+316 silly CHANGE node_modules/bash-obfuscate/node_modules/require-main-filename
+317 silly CHANGE node_modules/bash-obfuscate/node_modules/pinkie
+318 silly CHANGE node_modules/bash-obfuscate/node_modules/read-pkg-up
+319 silly CHANGE node_modules/bash-obfuscate/node_modules/require-directory
+320 silly CHANGE node_modules/bash-obfuscate/node_modules/read-pkg
+321 silly CHANGE node_modules/bash-obfuscate/node_modules/pinkie-promise
+322 silly CHANGE node_modules/bash-obfuscate/node_modules/lodash
+323 silly CHANGE node_modules/bash-obfuscate/node_modules/path-type
+324 silly CHANGE node_modules/bash-obfuscate/node_modules/pify
+325 silly CHANGE node_modules/bash-obfuscate/node_modules/path-exists
+326 silly CHANGE node_modules/bash-obfuscate/node_modules/path-parse
+327 silly CHANGE node_modules/bash-obfuscate/node_modules/parse-json
+328 silly CHANGE node_modules/bash-obfuscate/node_modules/os-locale
+329 silly CHANGE node_modules/bash-obfuscate/node_modules/number-is-nan
+330 silly CHANGE node_modules/bash-obfuscate/node_modules/normalize-package-data
+331 silly CHANGE node_modules/bash-obfuscate/node_modules/load-json-file
+332 silly CHANGE node_modules/bash-obfuscate/node_modules/is-core-module
+333 silly CHANGE node_modules/bash-obfuscate/node_modules/lcid
+334 silly CHANGE node_modules/bash-obfuscate/node_modules/is-utf8
+335 silly CHANGE node_modules/bash-obfuscate/node_modules/is-fullwidth-code-point
+336 silly CHANGE node_modules/bash-obfuscate/node_modules/invert-kv
+337 silly CHANGE node_modules/bash-obfuscate/node_modules/is-arrayish
+338 silly CHANGE node_modules/bash-obfuscate/node_modules/graceful-fs
+339 silly CHANGE node_modules/bash-obfuscate/node_modules/hosted-git-info
+340 silly CHANGE node_modules/bash-obfuscate/node_modules/hasown
+341 silly CHANGE node_modules/bash-obfuscate/node_modules/function-bind
+342 silly CHANGE node_modules/bash-obfuscate/node_modules/get-caller-file
+343 silly CHANGE node_modules/bash-obfuscate/node_modules/find-up
+344 silly CHANGE node_modules/bash-obfuscate/node_modules/decamelize
+345 silly CHANGE node_modules/bash-obfuscate/node_modules/error-ex
+346 silly CHANGE node_modules/bash-obfuscate/node_modules/code-point-at
+347 silly CHANGE node_modules/bash-obfuscate/node_modules/cliui
+348 silly CHANGE node_modules/bash-obfuscate/node_modules/ansi-regex
+349 silly CHANGE node_modules/bash-obfuscate/node_modules/camelcase
+350 verbose cwd /data/data/com.termux/files/home
+351 verbose os Linux 4.19.157-perf-g3cb19d78acee
+352 verbose node v20.17.0
+353 verbose npm  v10.8.2
+354 verbose exit 0
+355 info ok

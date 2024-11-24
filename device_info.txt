@@ -1,0 +1,11 @@
+u0_a493@localhost 
+----------------- 
+OS: Android 13 aarch64 
+Host: Redmi 220333QAG 
+Kernel: 4.19.157-perf-g3cb19d78acee 
+Uptime: 32 days, 39 mins 
+Packages: 240 (dpkg), 1 (pkg) 
+Shell: bash 5.2.37 
+CPU: Qualcomm SM6225 (8) @ 1.900GHz 
+Memory: 2237MiB / 3643MiB 
+
